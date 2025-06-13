@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        // Define the range
+        int lowerBound = 30;
+        int upperBound = 80;
+        System.out.println("Enter the Value to check:");
+        int value = sc.nextInt();
+        if(value >= lowerBound && value <= upperBound){
+            System.out.println("Value is within the range :" + lowerBound + upperBound);
+        }
+        else{
+            System.out.println("Value is not within range :" + lowerBound + upperBound);
+        }
+    }
+}
